@@ -1,0 +1,72 @@
+# =========================
+# Environment / Secret files
+# =========================
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# Azure / OpenAI / API secrets
+*.pem
+*.key
+*.crt
+secrets.*
+credentials.*
+service-account*.json
+
+# =========================
+# Node / Next.js frontend
+# =========================
+node_modules/
+.next/
+out/
+dist/
+build/
+.vercel/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Python / FastAPI backend
+# =========================
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# IDE / OS files
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Database / local files
+# =========================
+*.sqlite
+*.sqlite3
+*.db
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+.cache/
