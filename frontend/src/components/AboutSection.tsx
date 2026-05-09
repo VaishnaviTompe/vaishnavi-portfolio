@@ -1,5 +1,6 @@
 "use client";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { User, Target, Coffee, Award } from "lucide-react";
@@ -16,7 +17,7 @@ const fadeUp = {
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
-    transition: { delay: i * 0.1, duration: 0.6, ease: "easeOut" },
+    transition: { delay: i * 0.1, duration: 0.6, ease: [0.16, 1, 0.3, 1], },
   }),
 };
 
